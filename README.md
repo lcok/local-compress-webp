@@ -8,3 +8,7 @@ Convert image compression to webp format locally
 - 可配置：压缩参数
 - 可配置：是否保留转换后的图片文件
 - 可配置：转换后图片的存放目录
+
+### License
+
+[MIT License](https://github.com/lcok/local-compress-webp/blob/main/License)
