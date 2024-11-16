@@ -30,7 +30,7 @@ export = (ctx: PicGo) => {
     try {
       await sharp(iptImgPath)
         .webp({
-          quality: 60,
+          quality: 80,
           effort: 6,
         })
         .toFile(optImgPath);
