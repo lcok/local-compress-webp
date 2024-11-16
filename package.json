@@ -1,6 +1,6 @@
 {
   "name": "picgo-plugin-local-compress-webp",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Convert image compression to webp format locally",
   "main": "dist/index.js",
   "publishConfig": {

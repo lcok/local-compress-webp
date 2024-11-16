@@ -29,7 +29,10 @@ export = (ctx: PicGo) => {
 
     try {
       await sharp(iptImgPath)
-        .webp({ quality: 75 })
+        .webp({
+          quality: 60,
+          effort: 6,
+        })
         .toFile(optImgPath);
 
       // 转换完成后的日志
